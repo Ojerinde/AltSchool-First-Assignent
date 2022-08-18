@@ -9,5 +9,5 @@
     - Form input attributes like name, type, ...
 * Ordered and Unordered List
 * Dropdown or Select options
-* Table: I created a calculator with table
-* Flexbox which I also use to create a calculator.
+* Table
+* Flexbox
