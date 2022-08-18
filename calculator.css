@@ -1,0 +1,120 @@
+:root {
+    --color-primary:#3BACB6;
+    --color-primary-dark: #2F8F9D;
+    --color-primary-light-1: #82DBD8;
+    --color-primary-light-2: #B3E8E5;
+    --color-primary-dark-1: #104441;
+    --color-primary-dark-4: #000018;
+    }
+
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body{
+background-color: var(--color-primary-dark-1);
+box-sizing: border-box;
+font-family: "open sans";
+}
+
+.calculator {
+ padding: 5rem;
+ border-radius: .7rem;
+ height: 80rem;
+ width: 60rem;
+ margin: 10rem auto;
+ background-color: var(--color-primary-dark);
+ box-shadow: 0 2rem 4rem rgb(0, 0, 0, .7);
+
+ 
+}
+.display-box {
+ background-color: #fff;
+ border-radius: .7rem;
+ border: none;
+ width: 100%;
+ height: 50%;
+ font-size: 4rem;
+ border: .2rem solid transparent ;
+ padding: .2rem .1rem;
+ transition: all .3s;
+ 
+}
+
+.display-box:focus {
+    outline: none;
+    border: .2rem solid #333;
+    
+}
+
+.button {
+ background-color: var(--color-primary-light-1);
+ color: #333;
+ border: .5rem solid #333;
+ width: 100%;
+ border-radius: .7rem;
+ height: 70%;
+ font-size: 3rem;
+ font-weight: 300;
+ transition: all .3s;
+ cursor: pointer;
+}
+.button:active {
+ background: var(--color-primary-dark-1);
+ border: .5rem solid #fff;
+ color: #fff;
+}
+
+.button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.back__home {
+    margin: 4rem auto;
+    text-align: center;
+    transition: all .3s;
+    width: fit-content;
+}
+
+.back__to--homelink:link, 
+.back__to--homelink:visited {
+    font-size: 5rem;
+    color: var(--color-primary-light-1);
+    text-decoration: none;
+    padding: 1.5rem 2rem;  
+    text-align: center;
+    border-radius: .4rem;
+    box-shadow: 0 2rem 4rem rgb(0,0,24,0.7);
+    
+} 
+
+.back__home:hover {
+    transform: scale(1.1) translateY(.4rem);
+}
+
+.header__name {
+    font-size: 5rem;
+    color: var(--color-primary-light-1);
+    margin: 4rem auto 2rem auto;
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 60%;
+    border-radius: .4rem;
+    box-shadow: 0 2rem 4rem rgb(0,0,24,0.7);
+    transition: all .3s;
+  }
+  
+  .header__name:hover {
+    transform: scale(1.1);
+  }

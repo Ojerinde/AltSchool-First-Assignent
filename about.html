@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="about.css" />
+
+    <title>About me</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo__box">
+        <img src="./images/logo.png" alt="Logo Image" class="logo__img" />
+      </div>
+
+      <nav>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link">Contact me</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="/register.html"
+              class="navigation__link"
+              target="_blank"
+              >Register page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="/login.html"
+              class="navigation__link"
+              target="_blank"
+              >Login page</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="altschool">
+      <h1 class="altschool__heading">Welcome!</h1>
+    </div>
+
+    <div>
+      <h2 class="page__name">About me</h2>
+    </div>
+
+    <section class="section__container">
+      <div class="container__left">
+        <div class="container__left--child">
+          <div class="container__left--child-1">
+            <h3 class="my__name">
+              Hi, I am<span class="my">Ojerinde joel</span>
+            </h3>
+            <p class="paragraph">
+              I am one of the three boys in my family. I am from Eruwa a town in
+              Oyo state but I currently resides in Ilorin a city in Kwara state
+              where I am currently undergoing my undergraduate education.
+            </p>
+          </div>
+          <div class="container__left--child-2">
+            <img
+              src="images/Ojerinde Joel S (4).JPG"
+              alt="Myself"
+              class="container__left--image"
+            />
+          </div>
+        </div>
+
+        <div class="container__left--child">
+          <div class="container__left--child-2">
+            <img
+              src="images/muzammil-soorma-6M_Wiwi1LQQ-unsplash.jpg"
+              alt="Goals"
+              class="container__left--image"
+            />
+          </div>
+          <div class="container__left--child-1">
+            <h3 class="about__h3">Goals</h3>
+            <p class="paragraph">
+              My goal is to be one of the best backend engineer in the world.
+              This is also my dream and I am going to do everything I can do to
+              attain that.
+            </p>
+          </div>
+        </div>
+
+        <div class="container__left--child">
+          <div class="container__left--child-1">
+            <h3 class="about__h3">Past educations</h3>
+            <ul class="header__list">
+              <li class="header__item">Ifelodun primary school</li>
+              <li class="header__item">Ifelodun secondary school</li>
+              <li class="header__item">University of Ilorin</li>
+            </ul>
+          </div>
+          <div class="container__left--child-2">
+            <img
+              src="images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg"
+              alt="Education"
+              class="container__left--image"
+            />
+          </div>
+        </div>
+
+        <div class="container__left--child">
+          <div class="container__left--child-2">
+            <img
+              src="images/jeshoots-com-eCktzGjC-iU-unsplash.jpg"
+              alt="Hobbies"
+              class="container__left--image"
+            />
+          </div>
+          <div class="container__left--child-1 move__right">
+            <h3 class="about__h3">hobbies</h3>
+            <ul class="header__list">
+              <li class="header__item">Reading</li>
+              <li class="header__item">Playing Football and Games</li>
+              <li class="header__item">Working</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container__right" id="contact">
+        <h2 class="page__child-name">Contact me.</h2>
+
+        <form action="/about.html" class="section__form">
+          <div class="row__box">
+            <label for="name" class="section__label">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+              class="section__input"
+              minlength="4"
+            />
+          </div>
+
+          <div class="row__box">
+            <label for="email" class="section__label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+              class="section__input"
+            />
+          </div>
+
+          <div class="row__box">
+            <label for="message" class="section__label">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="0"
+              rows="0"
+              class="section__input"
+              placeholder="Drop us a message!"
+              minlength="4"
+            ></textarea>
+          </div>
+
+          <div class="row__box">
+            <label for="find-us" class="section__label"
+              >How did you find us?</label
+            >
+            <select name="find-us" id="find-us" class="section__select">
+              <option value="friends" selected>Friends</option>
+              <option value="serach">Search engine</option>
+              <option value="ad">Advertisement</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="row__box">
+            <button class="form__button-about">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__first--child">
+        <div class="links__to--calculator">
+          <a href="/calculator__flex.html" class="flexcalculator">Link to Calculator with Flex </a>
+        </div>
+
+        <div class="links__to--calculator">
+          <a href="/calculator.html" class="flexcalculator">Link to Calculator without Flex </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        &copy;2022 <span class="copyright__name">Ojerinde joel</span> This is my
+        original work and it is my first assignment for AltSchool.
+      </div>
+    </footer>
+  </body>
+</html>

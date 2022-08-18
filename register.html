@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="register.css">
+    <title>Register page</title>
+</head>
+<body>  
+
+    <div class="login">
+        <h2 class="register__name">Do register below!</h2>
+    </div>
+
+    <section class="section__contact">
+
+
+        <form action="/login.html" class="section__form">
+          <div class="row__box">
+              <label for="first_name" class="section__label">First Name</label>
+              <input type="text" id="first_name" name="name" required placeholder="Enter your first name" class="section__input" minlength="4">
+          </div>
+
+          <div class="row__box">
+            <label for="last_name" class="section__label">Last Name</label>
+            <input type="text" id="last_name" name="name" required placeholder="Enter your last name" class="section__input" minlength="4">
+        </div>
+
+          <div class="row__box">
+              <label for="number" class="section__label">Phone Number</label>
+              <input type="number" name="number" id="number" required placeholder="Enter your number" class="section__input" minlength="11">
+          </div>
+
+          <div class="row__box">
+            <label for="gender" class="section__label">Gender</label>
+            <select name="gender" id="gender" class="section__select-register"> 
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="can't_say">Can't say</option>
+                <option value="please" selected>Please choose your gender</option>
+            </select>
+          </div>
+
+          <div class="row__box">
+            <label for="country" class="section__label">Country</label>
+            <select name="country" id="country" class="section__select-register"> 
+                <option value="please" selected>Please select a Country</option>
+                <option value="kenya">Kenya</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="rwanda">Rwanda</option>
+            </select>
+          </div>
+
+          <div class="row__box">
+            <label for="state" class="section__label">State</label>
+            <select name="state" id="state" class="section__select-register"> 
+                <option value="please" selected>Please select a State</option>
+                <option value="lagos">Lagos</option>
+                <option value="ilorin">Ilorin</option>
+                <option value="ibadan">Ibadan</option>
+            </select>
+          </div>
+
+          <div class="row__box">
+            <label for="username" class="section__label">Username</label>
+            <input type="text" id="username" name="username" required placeholder="Create a username" class="section__input" minlength="4">
+        </div>
+
+        <div class="row__box">
+            <label for="password" class="section__label">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Create a password" class="section__input" minlength="6">
+        </div>
+          
+        <div class="row__box">
+            <label for="confirm_password" class="section__label">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirm your password" class="section__input" minlength="6">
+        </div>
+
+          <div class="row__box">
+            <button class="form__button-register">Submit</button>
+
+            <span class="button__login">Already have an account<a href="/login.html" class="button__login--link" target="_blank">Click here to login</a></span>
+        </div>
+
+        </form>
+
+    </section>
+</body>
+</html>

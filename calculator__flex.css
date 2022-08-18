@@ -1,0 +1,112 @@
+:root {
+    --color-primary:#3BACB6;
+    --color-primary-dark: #2F8F9D;
+    --color-primary-light-1: #82DBD8;
+    --color-primary-light-2: #B3E8E5;
+    --color-primary-dark-1: #104441;
+    --color-primary-dark-3: #00024b;
+    --color-primary-light-2: rgb(211, 212, 255);
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body{
+    background-color: var(--color-primary-dark-1);
+    box-sizing: border-box;
+    font-family: "open sans";
+}
+
+.calculator {
+    margin: 10rem auto 2rem auto;
+    width: 60rem; 
+    background-color: var(--color-primary-dark-3);
+    padding: 3rem;
+    border-radius: 3rem;
+    box-shadow: 0 2rem 4rem rgb(0, 0, 0, .7);
+
+}
+
+.calculator__display {
+    height: 10rem;
+    flex: 0 0 85%;
+    font-size: 4rem;
+    margin: 2rem 0;
+    padding: 0 1.5rem;
+    
+}
+
+.calculator__box {  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+button {
+    background-color: var(--color-primary-light-1);
+    font-size: 4rem;
+    display: block;
+    flex: 0 0 20%;
+    margin-bottom: 2rem;
+    padding: 2rem;   
+}
+
+button:hover {
+    background-color: var(--color-primary-light-2);
+}
+
+button:active {
+    background-color: var(--color-primary-dark-1);
+    color: var(--color-primary-light-2);
+}
+
+.back__home {
+    margin: 4rem auto;
+    text-align: center;
+    transition: all .3s;
+    width: fit-content;
+}
+
+.back__to--homelink:link, 
+.back__to--homelink:visited {
+    font-size: 5rem;
+    color: var(--color-primary-light-1);
+    text-decoration: none;
+    padding: 1.5rem 2rem;  
+    text-align: center;
+    border-radius: .4rem;
+    box-shadow: 0 2rem 4rem rgb(0,0,24,0.7);
+    
+} 
+
+.back__home:hover {
+    transform: scale(1.1) translateY(.4rem);
+}
+
+.header__name {
+    font-size: 5rem;
+    color: var(--color-primary-light-1);
+    margin: 4rem auto 2rem auto;
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 60%;
+    border-radius: .4rem;
+    box-shadow: 0 2rem 4rem rgb(0,0,24,0.7);
+    transition: all .3s;
+  }
+  
+  .header__name:hover {
+    transform: scale(1.1);
+  }

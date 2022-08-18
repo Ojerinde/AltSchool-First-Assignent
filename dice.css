@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 30rem;
+  height: 35rem;
+  background-color: red;
+  position: relative;
+}
+
+div {
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.div1 {
+  top: 2rem;
+  right: 2rem;
+}
+
+.div2 {
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.hidden {
+  display: none;
+}

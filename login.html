@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+    <title>Login page</title>
+</head>
+<body>
+
+    <div class="login">
+        <h2 class="header__name">Login below!</h2>
+    </div>
+
+    <section id="contact" class="section__contact">
+
+        <form action="/about.html"  class="section__form">
+          <div class="row__box">
+              <label for="username" class="section__label">Username</label>
+              <input type="text" id="username" name="username" required placeholder="Enter your username" class="section__input" minlength="4">
+          </div>
+
+          <div class="row__box">
+              <label for="password" class="section__label">Password</label>
+              <input type="password" name="password" id="password" required placeholder="Enter your password" class="section__input" minlength="4">
+          </div>
+          
+          <div class="row__box">
+            <button class="form__button-a">Sign In</button>
+
+            <span class="button__register">Don't have an account<a href="/register.html" class="button__register--link" target="_blank">Click here to register</a></span>
+
+            <span class="go__home"><a href="/about.html" class="go__home--link">Go home</a></span>
+          </div>
+
+        </form>
+
+    </section>
+</body>
+</html>
